@@ -1,0 +1,65 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;         /* makes it obvious these are clickable */
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #081b31;
+}
+
+/* FIXED: typo msg-container (was msg-conatainer) */
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#msg {
+  margin-top: 5rem;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+}
